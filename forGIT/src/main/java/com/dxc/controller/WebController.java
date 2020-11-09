@@ -11,4 +11,10 @@ public class WebController {
 		
 		return "Hello JenkinsGIT Demo";
 	}
+	
+	@GetMapping("/hello")
+	public String sayHello() {
+		
+		return "Hi JenkinsGIT Demo";
+	}
 }
